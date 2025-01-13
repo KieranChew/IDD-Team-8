@@ -1,0 +1,175 @@
+<!DOCTYPE html> <!-- this tells the browser that this is an html document -->
+<html lang="en"> <!-- sets the language of the document to English -->
+
+<head>
+  <meta charset="UTF-8"> <!-- this defines the character encoding for the webpage, making sure it can handle any text properly -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- ensures the page scales correctly on mobile devices -->
+  <title>Woodlands Homepage</title> <!-- this is the title that shows up on the browser tab -->
+  <link rel="stylesheet" href="./assets/Styles-a2eafb22.XPDcss"> <!-- links the external stylesheet to style the page -->
+  <link rel="stylesheet" href="./assets/style-b9527b9d.AGcss">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" rel="stylesheet"> <!-- this is where I imported the Poppins font from Google Fonts for a nice, clean look -->
+  <script type="module" crossorigin src="./assets/main-0dc6e17a.js"></script>
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <!-- Logo Section -->
+      <div class="logo">
+        <a href="index.html"> <img src="./assets/Icons/logo-woodlands.svg" alt="Woodlands Logo"> </a><!-- this image is the brand's logo -->
+      </div>
+      <!-- Navigation Links -->
+      <nav>
+        <ul class="nav-links">
+          <li><a href="pre-order.html">PRE-ORDER</a></li> <!-- this link goes to the pre-order section -->
+          <li><a href="N50.html">N50 SHOE</a></li> <!-- this link goes to the about us section -->
+          <li><a href="#contact">CONTACT</a></li> <!-- this link goes to the contact section -->
+        </ul>
+      </nav>
+      <!-- Icons Section -->
+      <div class="icons">
+            <input type="search" placeholder="Search">
+            <img src="./assets/Icons/search-icon.svg" alt="Search Icon"> <!-- this is the search icon -->
+        <a href="#cart" class="icon">
+          <img src="./assets/Icons/shopping-cart-icon.svg" alt="Shopping Cart Icon"> <!-- this is the shopping cart icon -->
+        </a>
+        <a href="#profile" class="icon">
+          <img src="./assets/Icons/profile-icon.svg" alt="Profile Icon"> <!-- this is the profile icon -->
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <div class="hero">
+    <h1 class = "fade1">Woodlands</h1> <!-- this is the main heading of the hero section -->
+    <img src="./assets/Images/shoe-image.png" alt="Shoe"> <!-- this image showcases the product, in this case, a shoe -->
+
+    <div class="Scroll">
+      <p> SCROLL TO DISCOVER.</p>
+      <div class="vertical-line"></div>
+      
+    </div>
+  </div>
+
+  
+  <!-- Glassmorphic Section -->
+  <section class="glassmorphic-section">
+    <h1 class="section-title fade2">What makes an <span class="highlight">icon.</span></h1> <!-- the title of the section with a cool highlight effect -->
+    <div class="glass-section">
+      <!-- Glass Card 1 -->
+      <div class="glass-container">
+        <div class="glass-card square2">
+          <div class="card-image-wrapper">
+            <div class="image-container">
+              <img src="./assets/Images/Waterproof.png" alt="Waterproof Feature" class="card-image"> <!-- image for waterproof feature -->
+            </div>
+            <h3 class="glass-title">Waterproof</h3> <!-- title of the card -->
+          </div>
+          <div class="card-content">
+            <p class="glass-body">Seam-sealed construction keeps water out, keeping feet dry all day.</p> <!-- description of the feature -->
+          </div>
+          <div class="indicator-wrapper">
+            <div class="indicator-line"></div> <!-- line indicator for design -->
+            <div class="outer-dot">
+              <div class="inner-dot"></div> <!-- dot indicator -->
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Glass Card 2 -->
+      <div class="glass-card square2">
+        <div class="card-image-wrapper">
+          <div class="image-container">
+            <img src="./assets/Images/Premium ®Woodlands Leather.png" alt="Premium ®Leather Feature" class="card-image"> <!-- image for premium leather -->
+          </div>
+          <h3 class="glass-title">Premium Woodlands Leather</h3> <!-- title for this card -->
+        </div>
+        <div class="card-content">
+          <p class="glass-body">Full-grain nubuck leather resists wear and develops a unique patina over time.</p> <!-- description of the premium leather -->
+        </div>
+      </div>
+
+      <!-- Glass Card 3 -->
+      <div class="glass-card square3">
+        <div class="card-image-wrapper">
+          <div class="image-container">
+            <img src="./assets/Images/WildLoft®Insulation.png" alt="WildLoft®Insulation" class="card-image"> <!-- image for WildLoft insulation -->
+          </div>
+          <h3 class="glass-title">WildLoft® Insulation</h3> <!-- title of the insulation card -->
+        </div>
+        <div class="card-content">
+          <p class="glass-body">Soft, lightweight, and ultra-warm. This insulation is made from patented recycled fibers.</p> <!-- description of the insulation -->
+        </div>
+      </div>
+
+      <!-- Glass Card 4 -->
+      <div class="glass-card square3">
+        <div class="card-image-wrapper">
+          <div class="image-container">
+            <img src="./assets/Images/Anti-Fatigue Technology.png" alt="Anti-Fatigue Technology" class="card-image"> <!-- image for anti-fatigue tech -->
+          </div>
+          <h3 class="glass-title">Anti-Fatigue Technology</h3> <!-- title of the anti-fatigue card -->
+        </div>
+        <div class="card-content">
+          <p class="glass-body">Engineered footbed absorbs shock and provides energy with every step.</p> <!-- description for anti-fatigue -->
+        </div>
+      </div>
+    </div> <!-- Closing for .glass-section -->
+  </section> <!-- Closing for .glassmorphic-section -->
+
+  <!-- New Section -->
+  <section class="craftsmanship-section">
+    <h2 class="section-heading fade3">
+      Rooted in <span class="gradient-text">Craftsmanship</span>
+    </h2> <!-- section heading with gradient text -->
+    <div class="video-container">
+      <video controls autoplay muted>
+        <source src="./assets/videos/Woodlands Craftmanship Video.mp4" type="video/mp4"> <!-- video showcasing craftsmanship -->
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </section>
+
+  <section class="newsletter-section">
+    <img src="./assets/Images/Glow.png" alt="Background Glow" class="background-glow"> <!-- image with a glowing effect as background -->
+    <img src="./assets/Images/Newsletter shopping image.png" alt="Shopping" class="shopping-image fade4"> <!-- shopping-related image -->
+    <div class="glass-box square4">
+      <img src="./assets/Icons/logo-woodlands.svg" alt="Logo" class="logo"> <!-- logo of the brand -->
+      <h3>STAY AHEAD OF THE TRAIL</h3> <!-- newsletter heading -->
+      <p class="signup-text">Sign up today!</p> <!-- text asking users to sign up -->
+      <form>
+        <input type="email" placeholder="Enter your email" required> <!-- email input field -->
+        <button type="submit">Subscribe</button> <!-- subscribe button -->
+      </form>
+    </div>
+  </section>
+
+  <section class="cta-section">
+    <div class="cta-content">
+      <img 
+        src="./assets/Images/WOODLAND FOOT CUTOUT 1.png" 
+        alt="Boot Image" 
+        class="cta-image" 
+      />
+      <h1 class="cta-heading square5">N50</h1> <!-- heading with the product name -->
+      <a href="pre-order.html" > <button class="cta-button square6">
+        PRE-ORDER
+        <img src="./assets/Icons/arrow.svg" 
+          alt="Arrow Icon" 
+          class="cta-icon" 
+        />
+      </button> <!-- pre-order button with an arrow -->
+    </a>
+    </div>
+  </section>
+
+  <div class="footer">
+    <span>WOODLANDS © 2024</span> <!-- footer text with the brand name and year -->
+    <a href="#">ABOUT US</a> <!-- link to about us page -->
+    <a href="#">ACCOUNT</a> <!-- link to account page -->
+    <a href="#">CONTACT</a> <!-- link to contact page -->
+  </div>
+  
+</body>
+</html>
