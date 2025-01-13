@@ -1,0 +1,377 @@
+header2 {
+  font-weight: bold;
+  text-align: right;
+  line-height: 120px;
+  font-size: 120px;
+  z-index: 10;
+}
+
+#web-canvas {
+  top: 
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  position: fixed;
+  touch-action: none;
+  z-index: 1;
+}
+
+#web-canvas-container {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+
+section-shoe {
+  height: 100vh;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  color: white;
+  text-align: center;
+  z-index: 5;
+}
+
+/* Different background content for each section */
+#view1 {
+  background-color:rgb(0, 0, 0);
+  z-index: -1;
+}
+
+#view2 {
+  background-color:rgb(0, 0, 0);
+}
+
+#view3 {
+  background-color:rgb(0, 0, 0);
+}
+
+#view4 {
+  background-color:rgb(0, 0, 0);
+}
+
+#view5 {
+  background-color:rgb(0, 0, 0);
+  overflow: hidden
+}
+
+
+#section-shoe5 {
+  background-color:rgb(0, 0, 0);
+  overflow: hidden
+  z-index: 10;
+} 
+
+.fade1 {
+  top: 500px;
+  right: 0px; 
+  position:absolute;
+	
+}
+
+.fade2 {
+  right:-100px;
+  width: 1500px;
+  font-family: 'Poppins';
+  position:relative;
+  
+}
+
+.fade3 {
+	width: 1500px;
+  font-family: 'Poppins';
+  position:relative;
+  z-index: 10;
+  right: -150px;
+}
+
+.fade4 {
+  bottom: -50px;
+  position:relative;
+}
+
+.fade5 {
+	width: 150px;
+	height: 150px;
+  top: -px;
+  right: -50px; 
+  position:relative;
+  z-index: 10px;
+	background-color:rgb(255, 255, 255);
+}
+
+.fade6 {
+  top: -200px;
+  right: -300px; 
+  width: 1500px;
+  font-family: 'Poppins';
+  position:relative;
+  z-index: 10;
+  
+}
+
+.fade7 {
+  top: -200px;
+  right: -300px; 
+  width: 1500px;
+  font-family: 'Poppins';
+  position:relative;
+  z-index: 10;
+}
+
+.fade8 {
+  top: -200px;
+  right: -300px; 
+  width: 1500px;
+  font-family: 'Poppins';
+  position:relative;
+  z-index: 10;
+}
+
+.fade9 {
+  top: 150px;
+  right: 300px; 
+  width: 1000px;
+  position:relative;
+  z-index: 10;
+  text-align: right;
+}
+
+.square2 {
+	
+  top: 0px;
+  right: 1500px; 
+  position:relative;
+  font-family: "Poppins";
+	background-color:dimgray;
+  text-align: left;
+}
+
+.square3 {
+  top: 0px;
+  right: -1500px; 
+  position:relative;
+  font-family: "Poppins";
+	background-color:dimgray;
+}
+
+.square4 {
+  top: 0px;
+  right: -600px; 
+  position:relative;
+}
+
+.square5 {
+  top: 0px;
+  right: -600px; 
+  position:relative;
+}
+
+.square6 {
+  top: 0px;
+  position:relative;
+}
+
+.square7 {
+  top: 0px;
+  left: 100px;
+  position:relative;
+}
+
+.square8 {
+  top: 0px;
+  position:relative;
+  right: 1200px;
+}
+
+.square9 {
+	width: 500px;
+	height: 300px;
+  top: 100px;
+  right: 2000px; 
+  position:relative;
+  text-align: left;
+}
+
+.square10 {
+	width: 500px;
+	height: 300px;
+  top: 100px;
+  right: 2000px; 
+  position:relative;
+  text-align: left;
+}
+
+.square11 {
+	width: 500px;
+	height: 300px;
+  top: 100px;
+  right: 2000px; 
+  position:relative;
+  text-align: left;
+}
+
+
+.square12 {
+  top: 0px;
+  right: -600px; 
+  position:relative;
+}
+
+
+.circle1 {
+  width: 150px;
+	height: 150px;
+  border-radius: 50%;
+  top: 50px;
+  right: 100px; 
+  position:relative;
+	background: linear-gradient(to bottom, #41f6aa, #baf97c);
+}
+
+.circle2 {
+	width: 175px;
+	height: 150px;
+  border-radius: 50%;
+  top: 50px;
+  right: 400px; 
+  position:relative;
+	background: linear-gradient(to bottom, #41f6aa, #baf97c); /* creates a gradient text effect */
+}
+
+.circle3 {
+  width: 42px;
+  height: 35px; /* Adjusted for a perfect circle */
+  border-radius: 50%;
+  top: 0px;
+  right: 1700px;
+  position: relative;
+  border-style: solid;
+  border-width: 2px;
+  border-color:rgb(255, 255, 255);
+  background-color: transparent; /* Starts with a transparent background */
+  transition: background-color 0.4s ease; /* Smooth background transition */
+  z-index: 8;
+}
+
+.circle4 {
+	width: 215px;
+	height: 185px;
+  border-radius: 50%;
+  top: 50px;
+  right: 400px; 
+  position:relative;
+	background: linear-gradient(to bottom, #41f6aa, #baf97c);  /* creates a gradient text effect */
+}
+
+.circle5 {
+	width: 42px;
+  height: 35px; /* Adjusted for a perfect circle */
+  border-radius: 50%;
+  top: 0px;
+  right: 1700px;
+  position: relative;
+  border-style: solid;
+  border-width: 2px;
+  border-color:rgb(255, 255, 255);
+  background-color: transparent; /* Starts with a transparent background */
+  transition: background-color 0.4s ease; /* Smooth background transition */
+  z-index: 8;
+}
+
+.circle6 {
+	width: 42px;
+  height: 35px; /* Adjusted for a perfect circle */
+  border-radius: 50%;
+  top: 20px;
+  right: 1700px;
+  position: relative;
+  border-style: solid;
+  border-width: 2px;
+  border-color:rgb(255, 255, 255);
+  background-color: transparent; /* Starts with a transparent background */
+  transition: background-color 0.4s ease; /* Smooth background transition */
+  z-index: 8;
+}
+
+.circle7 {
+	width: 175px;
+	height: 150px;
+  border-radius: 50%;
+  top: 50px;
+  right: 400px; 
+  position:relative;
+	background: linear-gradient(to bottom, #41f6aa, #baf97c); /* creates a gradient text effect */
+}
+
+.headerfont {
+  font-size: 20px;
+  color: black;
+}
+
+.canvas {
+  width: 600px;
+  height: 600px;
+} 
+
+.container-line {
+  position: relative;  /* Parent container to anchor the line */
+  top: 0px;
+  right: 1725px;
+  height: 2000px;      /* Set a height for the container */
+}
+
+.line {
+  position: absolute;  /* Position within the parent container */           /* Adjust how far from the left side of the container */
+  width: 10px;
+  height: 100%;        /* Full height of the container */
+  background-color: rgba(68, 68, 68, 0.6);
+  z-index: 2;
+}
+
+.canvas {
+  width: 1000px;
+  height: 800px;
+  z-index: 1;
+}
+
+.canvas-left {
+  background-image: linear-gradient(to bottom, #41f6aa, #baf97c); /* Background color with left to right linear gradient for 3D canvas */
+}
+
+/* Left-aligned content for image */
+.child-left-aligned-image {
+	height: 100vh; /* Image occupies 60% of viewport height */
+  justify-content: flex-start; /* Align content to left */
+	padding-left: 50px;
+	background-color: black;
+  z-index: 1;
+}
+
+/* Common styling for all alignment divs */
+.alignment {
+  display: flex; /* Enable flex box for alignment */
+  align-items: center; /* Vertically center image and text */
+  border: 1px solid black; /* Optional: visual separation for debugging purpose */
+	z-index: 1;
+}
+
+/* Parent container for all three sections */
+.parent-container {
+  top:-50px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column; /* Stack divs vertically */
+  gap: 0px; /* Spacing between sections */
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	z-index: 10;
+}
+
+.child-container {
+	height: 100vh; /* Content occupies 100% of viewport height */
+}
